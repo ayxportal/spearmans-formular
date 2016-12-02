@@ -1,0 +1,14 @@
+program SpearMansFormular;
+
+var 
+    d : Real;
+    n : Integer;
+	  resultSum : Real;
+begin
+	Write('Input value for d:'); 
+	Readln(d);
+	n := 20;
+  resultSum := 1 - ( (d * d) / n*((n * n ) - 1));
+	Writeln(resultSum);
+	Readln;
+end.
